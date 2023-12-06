@@ -168,5 +168,6 @@ export const projects = [
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "DATABASE"],
     category: "Chatbot",
     github: "https://github.com/samridhiduggal",
+    webapp :"https://chatbot-amber-nu-58.vercel.app/",
     },
 ];
