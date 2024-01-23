@@ -2,7 +2,7 @@ export const Bio = {
   name: "Samridhi Duggal",
   roles: [
     "An Engineer",
-    "Front End Developer",
+    "Web Developer",
     "A Published Author",
     "A Programmer",
   ],
@@ -10,7 +10,7 @@ export const Bio = {
     "Hello, I am Samridhi Duggal, an Engineer. I was born in Dehradun and currently doing my undergraduation from Graphic Era Deemed to be University, Dehradun, Uttarakhand. I am a Final Year student pursuing Bachelor's of Technology in Computer Science Engineering. I have gained experience in the field of web development through my projects. I try to grab any opportunity that can help me brush up my skills. I am versatile and have good leadership skills. Hope you would like to connect with me.",
   github: "https://github.com/samridhiduggal",
   resume:
-    "https://drive.google.com/file/d/1V4S4lR6lTZKDaL22EMz-8gxkHYpBsKG2/view?usp=drive_link",
+    "https://drive.google.com/file/d/1W9iQYHweCxs9XsLe9we5TM6kPvgvbTRW/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/samridhi-duggal-234a84214/",
   twitter: "https://twitter.com/samridhiduggal7",
   insta: "https://www.instagram.com/samridhi_duggal/",
@@ -52,6 +52,10 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name: "MERN Stack",
+        image:"https://imgs.search.brave.com/tOFp_XbGp9fcB4om8wqH0ET9hIO0UaNq7TYnl-4sRuQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibG9n/Lm5leHRpZGVhdGVj/aC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjIvMTIvMV9G/VnRDeVJkSjZLT3I0/WXN3VHR3TWVBLmpw/ZWc"
+      },
+      {
         name: "MySQL",
         image:
           "https://imgs.search.brave.com/8yN8cXptZMszsX2gfPlDvsg0TzVwshSntURY8oFd7RQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvbXlzcWwvbXlz/cWxfUE5HMjIucG5n",
@@ -75,6 +79,11 @@ export const skills = [
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Vercel",
+        image:
+        "https://imgs.search.brave.com/26RYV7rt9f6Skz8VBAmxf0vmw5BlKn6GhSvFLUg9UjU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jbXMu/aW50dWppLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/Ni9Mb2dvX1ZlcmNl/bC0xLmpwZw"
       },
       {
         name: "VS Code",
@@ -150,6 +159,26 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Echoes Of Life",
+    date: "Jan'24",
+    description:
+      "A website where people can visit and share their memories. This website is built for those people who like to share their experiences with others or like to write blogs, and also for those who can't share their feelings in person with others, so they can come and visit repository of their choice and write the post. Future work: to do the backend.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "REACTJS", "BOOTSTRAP"],
+    category: "Web Application",
+    github: "https://github.com/samridhiduggal/echoesoflife_frontend",
+  },
+  {
+    id: 0,
+    title: "Youtube Clone",
+    date: "Jan'24",
+    description:
+      "Led  the  development  of  a  YouTube  clone  from  scratch,  showcasing  expertise  in  both  front-end  and  back-end  technologies. Utilized  Reactjs,  Redux,  MUI  Materials  and  API’s  to  create  a  fully  functional  video-sharing  platform. Ensured  a  seamless  and  inclusive  user  experience  by  implementing  a  responsive  design  that  dynamically  adapts  to  various screen  sizes  and  resolutions.   Also,  developed  sophisticated  search  functionality.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "REACTJS", "BOOTSTRAP", "Material MUI", "API"],
+    category: "Web Application",
+    github: "https://github.com/samridhiduggal",
+  },
+  {
+    id: 0,
     title: "VegEase",
     date: "July'23-August'23",
     description:
@@ -168,5 +197,6 @@ export const projects = [
     tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "DATABASE"],
     category: "Chatbot",
     github: "https://github.com/samridhiduggal",
+    webapp: "https://chatbot-amber-nu-58.vercel.app/"
     },
 ];
